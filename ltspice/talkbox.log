@@ -1,0 +1,94 @@
+Circuit: * C:\Users\rata\Dropbox\Ratatech\projects\ratatech_talkbox\ltspice\talkbox.asc
+
+WARNING: Node OUT is floating.
+
+WARNING: Less than two connections to node OUT.  This node is used by C4.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.125
+vernier = 0.0625
+Gmin = 1.08884
+vernier = 0.03125
+vernier = 0.015625
+Gmin = 1.03122
+vernier = 0.0078125
+vernier = 0.0104167
+vernier = 0.00520833
+Gmin = 1.01988
+vernier = 0.00260417
+vernier = 0.00347222
+Gmin = 1.01305
+vernier = 0.00173611
+vernier = 0.00231481
+vernier = 0.00115741
+Gmin = 1.01085
+vernier = 0.00154321
+vernier = 0.000771604
+Gmin = 1.00871
+vernier = 0.00102881
+vernier = 0.000514403
+Gmin = 1.00715
+vernier = 0.00068587
+vernier = 0.000514403
+Gmin = 1.0059
+vernier = 0.00068587
+vernier = 0.000514402
+Gmin = 0
+Gmin stepping failed
+
+Starting source stepping with srcstepmethod=0
+Source Step = 1%
+Source Step = 11%
+Source Step = 21%
+Source Step = 31%
+Source Step = 41%
+Source Step = 51%
+Source Step = 61%
+Source Step = 71%
+Source Step = 81%
+Source Step = 91%
+Source stepping succeeded in finding the operating point.
+
+.step r_gain=10
+.step r_gain=510
+.step r_gain=1010
+.step r_gain=1510
+.step r_gain=2010
+.step r_gain=2510
+.step r_gain=3010
+.step r_gain=3510
+.step r_gain=4010
+.step r_gain=4510
+.step r_gain=5010
+.step r_gain=5510
+.step r_gain=6010
+.step r_gain=6510
+.step r_gain=7010
+.step r_gain=7510
+.step r_gain=8010
+.step r_gain=8510
+.step r_gain=9010
+.step r_gain=9510
+.step r_gain=10000
+
+Date: Sun May 24 01:38:17 2020
+Total elapsed time: 15.916 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2141
+traniter = 2104
+tranpoints = 1053
+accept = 1050
+rejected = 3
+matrix size = 32
+fillins = 31
+solver = Normal
+Matrix Compiler1: 3.28 KB object code size  1.5/0.9/[0.4]
+Matrix Compiler2: 3.40 KB object code size  0.6/0.9/[0.4]
+
