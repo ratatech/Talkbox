@@ -649,9 +649,9 @@ Connection ~ 3800 4850
 Wire Wire Line
 	3800 4850 4900 4850
 Wire Wire Line
-	6000 5950 6000 4750
+	6500 5950 6500 4750
 Wire Wire Line
-	4950 5950 6000 5950
+	4950 5950 6500 5950
 Text GLabel 5100 5350 3    50   Input ~ 0
 VDD
 $Comp
@@ -718,10 +718,10 @@ Wire Wire Line
 Wire Wire Line
 	5100 4050 5100 4250
 Connection ~ 5100 4250
-Text GLabel 6300 4750 2    50   Input ~ 0
+Text GLabel 6800 4750 2    50   Input ~ 0
 tone_control_output
 Wire Wire Line
-	6300 4750 6000 4750
+	6800 4750 6500 4750
 Wire Notes Line width 39 style dash_dot rgb(132, 132, 132)
 	7700 7050 7700 900 
 Wire Notes Line width 39 style dash_dot rgb(132, 132, 132)
@@ -930,8 +930,8 @@ NoConn ~ 3550 9200
 Wire Wire Line
 	13450 2200 13600 2200
 Wire Wire Line
-	5500 4750 6000 4750
-Connection ~ 6000 4750
+	5500 4750 6500 4750
+Connection ~ 6500 4750
 NoConn ~ 6500 9150
 NoConn ~ 6350 7850
 NoConn ~ 4450 8050
@@ -1025,4 +1025,9 @@ Wire Wire Line
 	3050 8250 2900 8250
 Wire Wire Line
 	2900 8250 2900 8350
+Wire Wire Line
+	6000 1900 6500 1900
+Connection ~ 6000 1900
+Wire Wire Line
+	6500 1900 6500 4750
 $EndSCHEMATC
