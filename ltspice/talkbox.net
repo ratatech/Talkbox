@@ -1,0 +1,48 @@
+* C:\Users\rata\Dropbox\Ratatech\projects\ratatech_talkbox\ltspice\talkbox.asc
+C1 tone_control_out N002 22pF
+R1 tone_control_out N001 1.8k
+R3 N001 in 1.8k
+R4 N002 N001 22k
+R5 N003 N002 9.1k
+C3 N004 N003 4.7nF
+R6 N004 in {R}
+V2 Vcc 0 11.9
+V3 0 Vee 11.9
+XU1 0 N002 Vcc Vee tone_control_out OP27
+R7 tone_control_out N004 {R_SUB}
+R2 N009 0 {R_VOL}
+R8 preamp_out N009 {R_VOL_SUB}
+V4 in 0 SINE(0 0.15 1000) AC 1
+C2 N008 N010 0.05µF
+R9 N010 0 10
+C4 power_amp_out N008 250µF
+XU3 NC_01 0 N009 0 N008 Vcc NC_02 NC_03 lm386
+R10 N005 N005 {R_GAIN}
+R11 preamp_out N005 {R_GAIN_SUB}
+XU2 N007 N005 Vcc Vee preamp_out OP27
+R12 N005 N006 10k
+C5 N007 tone_control_out 10µF
+R16 0 N007 1000k
+C7 N006 0 10µF
+.options gmin=1e-9
+.options abstol=1e-10
+.options reltol=0.003
+.options cshunt=1e-15
+.option  ITL6=100
+.ac oct 100 10 30K
+.param R_SUB=10K-{R}+10
+.param R=5K
+.step param R 10 10000 1000
+.param R_GAIN=0.1
+.param R_GAIN_SUB=20K-{R_GAIN}+10
+;tran 0.010
+;.step param R_GAIN 10 20000 2000
+* PARAMETERS
+* SIMULATION
+.param R_VOL=5k
+;.step param R_VOL 10 10000 500
+.param R_VOL_SUB=10K-{R_VOL}+10
+.lib ADI.lib
+.lib C:\Users\rata\Dropbox\Ratatech\projects\ratatech_talkbox\ltspice\libs\lm386.subckt
+.backanno
+.end
