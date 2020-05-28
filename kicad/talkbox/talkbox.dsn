@@ -34,20 +34,37 @@
   )
   (placement
     (component imgs:ratatech_bitmap_10x2.8mm
-      (place G*** 169558 -108140 front 90 (PN LOGO))
+      (place U7 169482 -108115 front 90 (PN logo))
     )
     (component MountingHole:MountingHole_3mm
-      (place REF3 86956.9 -116637 front 0 (PN MountingHole_3mm))
-      (place REF1 169189 -77304.9 front 0 (PN MountingHole_3mm))
+      (place H4 169266 -116637 front 0 (PN MountingHole))
+      (place H3 86956.9 -116650 front 0 (PN MountingHole))
+      (place H2 169240 -77355.7 front 0 (PN MountingHole))
+      (place H1 86995 -77330.3 front 0 (PN MountingHole))
     )
-    (component MountingHole:MountingHole_3mm::1
-      (place REF2 169228 -116624 front 0 (PN MountingHole_3mm))
-      (place REF0 87020.4 -77546.2 front 0 (PN MountingHole_3mm))
+    (component Capacitor_SMD:C_0603_1608Metric
+      (place C17 119113 -112700 front 0 (PN 10uF))
+      (place C16 105652 -108985 front 0 (PN 10uF))
+      (place R11 119113 -108985 front 0 (PN 10K))
+      (place R10 119113 -105270 front 0 (PN 1000k))
+      (place R9 121602 -101638 front 180 (PN 470))
+      (place R8 87312.5 -82715.1 front 0 (PN 240K))
+      (place R7 114414 -101105 front 0 (PN 22K))
+      (place R6 148693 -108839 front 0 (PN 470))
+      (place R5 125717 -103962 front 180 (PN 9.1K))
+      (place R4 148693 -112598 front 0 (PN 10))
+      (place R3 110139 -105270 front 180 (PN 22K))
+      (place R2 105652 -105270 front 180 (PN 1.8K))
+      (place R1 105652 -112700 front 180 (PN 1.8K))
+      (place C9 87312.5 -84874.1 front 180 (PN 0.002uF))
+      (place C6 131420 -104013 front 0 (PN 4.7nF))
+      (place C4 114626 -105270 front 0 (PN 22pF))
+      (place C1 148693 -116357 front 0 (PN 0.05uF))
     )
     (component Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical
-      (place RV2 159588 -110820 front 0 (PN 10K))
-      (place RV3 128080 -110820 front 0 (PN 10K))
-      (place RV1 96570.8 -110820 front 0 (PN 10K))
+      (place RV2 96799.4 -110909 front 0 (PN 20K))
+      (place RV3 128022 -110909 front 0 (PN 10K))
+      (place RV1 159245 -110909 front 0 (PN 10K))
     )
     (component Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled
       (place SW1 110896 -76377.8 front 180 (PN SW_SPST))
@@ -62,10 +79,10 @@
       (place J1 134722 -80441.8 front 90 (PN AudioJack2))
     )
     (component Stompbox_Switch:SW_Stompbox_3PDT_redux
-      (place U2 169812 -86995 front 90 (PN SW_3PDT))
+      (place U2 169075 -87134.7 front 90 (PN SW_3PDT))
     )
     (component Capacitor_SMD:CP_Elec_5x5.3
-      (place C15 139624 -104496 front 180 (PN 100uF))
+      (place C15 141961 -104496 front 180 (PN 100uF))
       (place C14 127711 -84480.4 front 0 (PN 1uF))
       (place C13 127483 -77800.2 front 180 (PN 1uF))
       (place C12 109322 -84480.4 front 0 (PN 2uF))
@@ -73,7 +90,7 @@
       (place C10 89179.4 -99021.9 front 0 (PN 100uF))
       (place C8 89179.4 -90157.3 front 180 (PN 10uF))
       (place C7 118516 -84480.4 front 0 (PN 2uF))
-      (place C5 107544 -116688 front 180 (PN 100uF))
+      (place C5 107544 -116611 front 180 (PN 100uF))
       (place C3 117170 -116611 front 180 (PN 100uF))
       (place C2 141961 -116459 front 0 (PN 20uF))
     )
@@ -85,26 +102,11 @@
       (place U4 102756 -96456.5 front 0 (PN LT1054xSOIC16))
     )
     (component "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-      (place U3 112446 -110007 front 0 (PN TL071))
-      (place U1 142011 -110439 front 0 (PN LM386))
-    )
-    (component Resistor_SMD:R_0603_1608Metric
-      (place R9 121602 -101638 front 180 (PN 470))
-      (place R8 87312.5 -82715.1 front 0 (PN 240K))
-      (place R7 114414 -101105 front 0 (PN 22K))
-      (place R6 148693 -108839 front 0 (PN 470))
-      (place R5 116529 -105270 front 180 (PN 9.1K))
-      (place R4 148693 -112598 front 0 (PN 10))
-      (place R3 108896 -105270 front 180 (PN 22K))
-      (place R2 105080 -105270 front 180 (PN 1.8K))
-      (place R1 105486 -111887 front 180 (PN 1.8K))
-      (place C9 87312.5 -84874.1 front 180 (PN 0.002uF))
-      (place C6 120345 -105270 front 0 (PN 4.7nF))
-      (place C4 112712 -105270 front 0 (PN 22pF))
-      (place C1 148693 -116357 front 0 (PN 0.05uF))
+      (place U3 112497 -110071 front 0 (PN TL072))
+      (place U1 141961 -110439 front 0 (PN LM386))
     )
     (component "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
-      (place J2 85509.1 -110211 front 90 (PN Conn_01x02))
+      (place J2 85801.2 -110719 front 90 (PN Conn_01x02))
     )
     (component LED_SMD:LED_1206_3216Metric
       (place D2 87414.1 -94564.2 front 0 (PN LED))
@@ -115,13 +117,6 @@
     (image imgs:ratatech_bitmap_10x2.8mm
     )
     (image MountingHole:MountingHole_3mm
-      (outline (path signal 150  3000 0  2919.14 -691.848  2680.9 -1346.4  2298.13 -1928.36
-            1791.48 -2406.37  1188.24 -2754.65  520.945 -2954.42  -174.434 -2994.92
-            -860.41 -2873.97  -1500 -2598.08  -2058.72 -2182.12  -2506.46 -1648.53
-            -2819.08 -1026.06  -2979.72 -348.279  -2979.72 348.279  -2819.08 1026.06
-            -2506.46 1648.53  -2058.72 2182.12  -1500 2598.08  -860.41 2873.97
-            -174.434 2994.92  520.945 2954.42  1188.24 2754.65  1791.48 2406.37
-            2298.13 1928.36  2680.9 1346.4  2919.14 691.848  3000 0))
       (outline (path signal 50  3250 0  3168.52 -723.193  2928.15 -1410.12  2540.95 -2026.34
             2026.34 -2540.95  1410.12 -2928.15  723.193 -3168.52  0 -3250
             -723.193 -3168.52  -1410.12 -2928.15  -2026.34 -2540.95  -2540.95 -2026.34
@@ -129,26 +124,29 @@
             -2928.15 1410.12  -2540.95 2026.34  -2026.34 2540.95  -1410.12 2928.15
             -723.193 3168.52  0 3250  723.193 3168.52  1410.12 2928.15  2026.34 2540.95
             2540.95 2026.34  2928.15 1410.12  3168.52 723.193  3250 0))
+      (outline (path signal 150  3000 0  2919.14 -691.848  2680.9 -1346.4  2298.13 -1928.36
+            1791.48 -2406.37  1188.24 -2754.65  520.945 -2954.42  -174.434 -2994.92
+            -860.41 -2873.97  -1500 -2598.08  -2058.72 -2182.12  -2506.46 -1648.53
+            -2819.08 -1026.06  -2979.72 -348.279  -2979.72 348.279  -2819.08 1026.06
+            -2506.46 1648.53  -2058.72 2182.12  -1500 2598.08  -860.41 2873.97
+            -174.434 2994.92  520.945 2954.42  1188.24 2754.65  1791.48 2406.37
+            2298.13 1928.36  2680.9 1346.4  2919.14 691.848  3000 0))
       (keepout "" (circle F.Cu 3000))
       (keepout "" (circle B.Cu 3000))
     )
-    (image MountingHole:MountingHole_3mm::1
-      (outline (path signal 50  3250 0  3168.52 -723.193  2928.15 -1410.12  2540.95 -2026.34
-            2026.34 -2540.95  1410.12 -2928.15  723.193 -3168.52  0 -3250
-            -723.193 -3168.52  -1410.12 -2928.15  -2026.34 -2540.95  -2540.95 -2026.34
-            -2928.15 -1410.12  -3168.52 -723.193  -3250 0  -3168.52 723.193
-            -2928.15 1410.12  -2540.95 2026.34  -2026.34 2540.95  -1410.12 2928.15
-            -723.193 3168.52  0 3250  723.193 3168.52  1410.12 2928.15  2026.34 2540.95
-            2540.95 2026.34  2928.15 1410.12  3168.52 723.193  3250 0))
-      (outline (path signal 150  3000 0  2919.14 -691.848  2680.9 -1346.4  2298.13 -1928.36
-            1791.48 -2406.37  1188.24 -2754.65  520.945 -2954.42  -174.434 -2994.92
-            -860.41 -2873.97  -1500 -2598.08  -2058.72 -2182.12  -2506.46 -1648.53
-            -2819.08 -1026.06  -2979.72 -348.279  -2979.72 348.279  -2819.08 1026.06
-            -2506.46 1648.53  -2058.72 2182.12  -1500 2598.08  -860.41 2873.97
-            -174.434 2994.92  520.945 2954.42  1188.24 2754.65  1791.48 2406.37
-            2298.13 1928.36  2680.9 1346.4  2919.14 691.848  3000 0))
-      (keepout "" (circle F.Cu 3000))
-      (keepout "" (circle B.Cu 3000))
+    (image Capacitor_SMD:C_0603_1608Metric
+      (outline (path signal 50  1480 -730  -1480 -730))
+      (outline (path signal 50  1480 730  1480 -730))
+      (outline (path signal 50  -1480 730  1480 730))
+      (outline (path signal 50  -1480 -730  -1480 730))
+      (outline (path signal 120  -162.779 -510  162.779 -510))
+      (outline (path signal 120  -162.779 510  162.779 510))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin RoundRect[T]Pad_875x950_219.582_um 2 787.5 0)
+      (pin RoundRect[T]Pad_875x950_219.582_um 1 -787.5 0)
     )
     (image Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical
       (outline (path signal 50  -6610 5884  -6610 -8516))
@@ -448,20 +446,6 @@
       (pin RoundRect[T]Pad_1950x600_150.571_um 2 -2475 635)
       (pin RoundRect[T]Pad_1950x600_150.571_um 1 -2475 1905)
     )
-    (image Resistor_SMD:R_0603_1608Metric
-      (outline (path signal 50  1480 -730  -1480 -730))
-      (outline (path signal 50  1480 730  1480 -730))
-      (outline (path signal 50  -1480 730  1480 730))
-      (outline (path signal 50  -1480 -730  -1480 730))
-      (outline (path signal 120  -162.779 -510  162.779 -510))
-      (outline (path signal 120  -162.779 510  162.779 510))
-      (outline (path signal 100  800 -400  -800 -400))
-      (outline (path signal 100  800 400  800 -400))
-      (outline (path signal 100  -800 400  800 400))
-      (outline (path signal 100  -800 -400  -800 400))
-      (pin RoundRect[T]Pad_875x950_219.582_um 2 787.5 0)
-      (pin RoundRect[T]Pad_875x950_219.582_um 1 -787.5 0)
-    )
     (image "Connector_JST:JST_EH_S2B-EH_1x02_P2.50mm_Horizontal"
       (outline (path signal 100  0 1407.11  500 700))
       (outline (path signal 100  -500 700  0 1407.11))
@@ -696,25 +680,22 @@
     (net "Net-(C1-Pad1)"
       (pins U1-5 C2-2 C1-1)
     )
-    (net "Net-(C2-Pad1)"
-      (pins RV2-1 C2-1)
-    )
     (net GND
-      (pins RV2-3 RV1-3 J4-3 J4-2 J3-S J1-S C15-2 U6-1 U5-2 U5-2@1 U5-2@2 U5-2@3 U5-2@4
-        U4-5 U3-3 U1-4 U1-2 R4-2 J2-2 D2-1 D1-1 C14-1 C13-2 C12-1 C11-2 C10-1 C7-2
-        C5-2 C3-2)
+      (pins C16-2 R10-1 RV1-3 J4-3 J4-2 J3-S J1-S C15-2 U6-1 U5-2 U5-2@1 U5-2@2 U5-2@3
+        U5-2@4 U4-5 U3-3 U1-4 U1-2 R4-2 J2-2 D2-1 D1-1 C14-1 C13-2 C12-1 C11-2 C10-1
+        C7-2 C5-1 C3-2)
     )
     (net VCC
-      (pins U2-7 C15-1 U5-3 U3-7 U1-6 R9-2 C13-1 C3-1)
+      (pins U2-7 C15-1 U5-3 U3-8 U1-6 R9-2 C13-1 C3-1)
     )
     (net tone_control_output
-      (pins RV3-3 RV1-1 U3-6 R1-1 C4-2)
+      (pins C17-1 RV3-3 U3-1 R1-1 C4-2)
     )
     (net "Net-(C4-Pad1)"
       (pins U3-2 R5-2 R3-1 C4-1)
     )
     (net VDD
-      (pins U6-3 U3-4 C14-2 C5-1)
+      (pins U6-3 U3-4 C14-2 C5-2)
     )
     (net "Net-(C6-Pad2)"
       (pins RV3-2 C6-2)
@@ -768,13 +749,28 @@
       (pins RV1-2 U1-3)
     )
     (net output
-      (pins RV2-2 U2-1)
+      (pins U2-1 C2-1)
+    )
+    (net "Net-(C16-Pad1)"
+      (pins C16-1 R11-1)
+    )
+    (net "Net-(C17-Pad2)"
+      (pins C17-2 R10-2 U3-5)
+    )
+    (net "Net-(R11-Pad2)"
+      (pins R11-2 RV2-1 RV2-2 U3-6)
+    )
+    (net preamp_output
+      (pins RV2-3 RV1-1 U3-7)
     )
     (class kicad_default "" GND "Net-(C1-Pad1)" "Net-(C1-Pad2)" "Net-(C10-Pad2)"
-      "Net-(C11-Pad1)" "Net-(C2-Pad1)" "Net-(C4-Pad1)" "Net-(C6-Pad1)" "Net-(C6-Pad2)"
-      "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)"
-      "Net-(J2-Pad1)" "Net-(J3-PadT)" "Net-(J4-Pad1)" "Net-(R1-Pad2)" "Net-(R6-Pad2)"
-      "Net-(R7-Pad2)" "Net-(RV1-Pad2)" VCC VDD input output tone_control_output
+      "Net-(C11-Pad1)" "Net-(C16-Pad1)" "Net-(C17-Pad2)" "Net-(C2-Pad1)" "Net-(C4-Pad1)"
+      "Net-(C6-Pad1)" "Net-(C6-Pad2)" "Net-(C8-Pad1)" "Net-(C8-Pad2)" "Net-(C9-Pad2)"
+      "Net-(D1-Pad2)" "Net-(D2-Pad2)" "Net-(J2-Pad1)" "Net-(J3-PadT)" "Net-(J4-Pad1)"
+      "Net-(R1-Pad2)" "Net-(R11-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(RV1-Pad2)"
+      "Net-(U1-Pad1)" "Net-(U1-Pad7)" "Net-(U1-Pad8)" "Net-(U2-Pad3)" "Net-(U2-Pad4)"
+      "Net-(U2-Pad9)" "Net-(U4-Pad13)" VCC VDD input output preamp_output
+      tone_control_output
       (circuit
         (use_via Via[0-1]_800:400_um)
       )

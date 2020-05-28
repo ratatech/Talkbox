@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 2091)
+    (start_pass_no 3822)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -63,10 +63,10 @@
     )
   )
   (class "kicad_default"
-    "Net-(C1-Pad2)" "Net-(C1-Pad1)" "Net-(C2-Pad1)" GND VCC "tone_control_output" "Net-(C4-Pad1)" VDD
-    "Net-(C6-Pad2)" "Net-(C6-Pad1)" "Net-(C11-Pad1)" "Net-(C8-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad2)" "Net-(C10-Pad2)" "Net-(D1-Pad2)"
-    "Net-(D2-Pad2)" input "Net-(J2-Pad1)" "Net-(J3-PadT)" "Net-(J4-Pad1)" "Net-(R1-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad2)"
-    "Net-(RV1-Pad2)" output
+    "Net-(C1-Pad2)" "Net-(C1-Pad1)" GND VCC "tone_control_output" "Net-(C4-Pad1)" VDD "Net-(C6-Pad2)"
+    "Net-(C6-Pad1)" "Net-(C11-Pad1)" "Net-(C8-Pad2)" "Net-(C8-Pad1)" "Net-(C9-Pad2)" "Net-(C10-Pad2)" "Net-(D1-Pad2)" "Net-(D2-Pad2)"
+    input "Net-(J2-Pad1)" "Net-(J3-PadT)" "Net-(J4-Pad1)" "Net-(R1-Pad2)" "Net-(R6-Pad2)" "Net-(R7-Pad2)" "Net-(RV1-Pad2)"
+    output "Net-(C16-Pad1)" "Net-(C17-Pad2)" "Net-(R11-Pad2)" "preamp_output"
     (clearance_class "kicad_default")
     (via_rule kicad_default)
     (rule
