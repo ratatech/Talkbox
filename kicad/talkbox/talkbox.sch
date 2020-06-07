@@ -563,17 +563,6 @@ Text Notes 8250 5550 0    158  ~ 32
 DRIVER AMPLIFIER
 Wire Notes Line width 39 style dash_dot rgb(132, 132, 132)
 	14750 8750 14800 5200
-$Comp
-L power:GND #PWR09
-U 1 1 5F3250F6
-P 9550 6950
-F 0 "#PWR09" H 9550 6700 50  0001 C CNN
-F 1 "GND" H 9555 6777 50  0000 C CNN
-F 2 "" H 9550 6950 50  0001 C CNN
-F 3 "" H 9550 6950 50  0001 C CNN
-	1    9550 6950
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	9550 6800 9550 6950
 Wire Wire Line
@@ -597,17 +586,6 @@ F 1 "LT1054xSOIC16" H 11100 4126 50  0000 C CNN
 F 2 "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" H 11200 3550 50  0001 C CNN
 F 3 "" H 11200 3550 50  0001 C CNN
 	1    11100 3650
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR013
-U 1 1 5ED9C4F9
-P 12000 6250
-F 0 "#PWR013" H 12000 6000 50  0001 C CNN
-F 1 "GND" H 12005 6077 50  0000 C CNN
-F 2 "" H 12000 6250 50  0001 C CNN
-F 3 "" H 12000 6250 50  0001 C CNN
-	1    12000 6250
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -646,11 +624,7 @@ $EndComp
 Wire Wire Line
 	11900 5800 12100 5800
 Wire Wire Line
-	12100 5900 12000 5900
-Wire Wire Line
 	11350 5700 11500 5700
-Wire Wire Line
-	12000 5900 12000 6250
 Wire Wire Line
 	13250 5900 13400 5900
 Wire Wire Line
@@ -1009,14 +983,8 @@ Wire Wire Line
 	9050 7850 8850 7850
 Text GLabel 8850 7850 0    50   Input ~ 0
 pa_vcc
-Wire Wire Line
-	8850 8050 9000 8050
-Text GLabel 8850 8050 0    50   Input ~ 0
-driver_-
 Text GLabel 12100 5800 2    50   Input ~ 0
 driver_+
-Text GLabel 12100 5900 2    50   Input ~ 0
-driver_-
 $Comp
 L Device:CP C2
 U 1 1 5EDE9FBF
@@ -1070,22 +1038,6 @@ F 3 "" H 9750 7850 50  0001 C CNN
 	1    9750 7850
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:GND #PWR0103
-U 1 1 5EDE914A
-P 9000 8200
-F 0 "#PWR0103" H 9000 7950 50  0001 C CNN
-F 1 "GND" H 9005 8027 50  0000 C CNN
-F 2 "" H 9000 8200 50  0001 C CNN
-F 3 "" H 9000 8200 50  0001 C CNN
-	1    9000 8200
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	9000 8200 9000 8050
-Connection ~ 9000 8050
-Wire Wire Line
-	9000 8050 9050 8050
 Wire Wire Line
 	14850 3050 14850 3150
 Wire Wire Line
@@ -1099,4 +1051,16 @@ Wire Wire Line
 	5200 4000 5200 4300
 Wire Wire Line
 	9800 3350 10700 3350
+$Comp
+L power:GND #PWR09
+U 1 1 5EE63EA4
+P 9550 6950
+F 0 "#PWR09" H 9550 6700 50  0001 C CNN
+F 1 "GND" H 9555 6777 50  0000 C CNN
+F 2 "" H 9550 6950 50  0001 C CNN
+F 3 "" H 9550 6950 50  0001 C CNN
+	1    9550 6950
+	1    0    0    -1  
+$EndComp
+NoConn ~ 9050 8050
 $EndSCHEMATC
