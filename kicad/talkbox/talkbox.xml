@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\rata\Dropbox\Ratatech\projects\ratatech_talkbox\kicad\talkbox\talkbox.sch</source>
-    <date>6/10/2020 00:45:17</date>
+    <date>6/14/2020 23:32:00</date>
     <tool>Eeschema (5.1.4)-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -23,6 +23,9 @@
       <value>SW_SPST</value>
       <footprint>Button_Switch_THT:SW_CuK_OS102011MA1QN1_SPDT_Angled</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">611-OS102011MA1QN1</field>
+      </fields>
       <libsource lib="Switch" part="SW_SPST" description="Single Pole Single Throw (SPST) switch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8F4</tstamp>
@@ -31,6 +34,9 @@
       <value>Barrel_Jack_Switch</value>
       <footprint>Connector_BarrelJack:BarrelJack_CUI_PJ-102AH_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">490-PJ-102BH </field>
+      </fields>
       <libsource lib="Connector" part="Barrel_Jack_Switch" description="DC Barrel Jack with an internal switch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F441423</tstamp>
@@ -39,6 +45,9 @@
       <value>470</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW0603470RFKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D29</tstamp>
@@ -47,6 +56,9 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">327-BR1101WTR</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D25</tstamp>
@@ -55,6 +67,9 @@
       <value>0.002uF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">603-CC603KRX7R9BB202</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC8F264</tstamp>
@@ -63,6 +78,9 @@
       <value>240K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">652-CR0603FX-2403ELF</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC75A0E</tstamp>
@@ -71,6 +89,9 @@
       <value>22K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW060322K0FKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EC74B67</tstamp>
@@ -79,6 +100,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">RVS-50V010MU-R</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8ED</tstamp>
@@ -87,6 +111,9 @@
       <value>2uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMVE630ADA3R3ME5 </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8EC</tstamp>
@@ -95,6 +122,9 @@
       <value>1uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">RVS-50V010MU-R</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8EB</tstamp>
@@ -103,6 +133,9 @@
       <value>2uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMVE630ADA3R3ME5 </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8EA</tstamp>
@@ -111,6 +144,9 @@
       <value>LM7812_TO220</value>
       <footprint>Package_TO_SOT_SMD:ATPAK-2</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/LM/LM7805.pdf</datasheet>
+      <fields>
+        <field name="Mouser part">511-L78M12CDT-TR </field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM7812_TO220" description="Positive 1A 35V Linear Regulator, Fixed Output 12V, TO-220"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F441416</tstamp>
@@ -119,6 +155,9 @@
       <value>LM7912_TO220</value>
       <footprint>Package_TO_SOT_SMD:ATPAK-2</footprint>
       <datasheet>http://www.fairchildsemi.com/ds/LM/LM7905.pdf</datasheet>
+      <fields>
+        <field name="Mouser part">512-KA79M12RTF </field>
+      </fields>
       <libsource lib="Regulator_Linear" part="LM7912_TO220" description="Negative 1A 35V Linear Regulator, Fixed Output 12V, TO-220"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D23</tstamp>
@@ -127,6 +166,9 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMZJ6R3A101ME61G</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D1E</tstamp>
@@ -135,6 +177,9 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">598-AVE106M35C12T-F</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D1D</tstamp>
@@ -143,6 +188,9 @@
       <value>2uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMVE630ADA3R3ME5 </field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EF48D1C</tstamp>
@@ -151,6 +199,9 @@
       <value>AudioJack2</value>
       <footprint>Connector_Audio_Extended:Jack_6.35mm_Neutrik_NRJ4HF-1_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">550-10284G </field>
+      </fields>
       <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F441426</tstamp>
@@ -159,6 +210,9 @@
       <value>AudioJack2</value>
       <footprint>Connector_Audio_Extended:Jack_6.35mm_Neutrik_NRJ4HF-1_Horizontal</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">550-10284G </field>
+      </fields>
       <libsource lib="Connector" part="AudioJack2" description="Audio Jack, 2 Poles (Mono / TS)"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5ED73319</tstamp>
@@ -167,6 +221,9 @@
       <value>LED</value>
       <footprint>LED_SMD:LED_1206_3216Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">327-BR1101WTR</field>
+      </fields>
       <libsource lib="Device" part="LED" description="Light emitting diode"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F441419</tstamp>
@@ -175,6 +232,9 @@
       <value>470</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW0603470RFKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F75B8E9</tstamp>
@@ -183,6 +243,9 @@
       <value>6.8nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">710-885012206088</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F145FB2</tstamp>
@@ -191,6 +254,9 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMZJ6R3A101ME61G</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1A6479</tstamp>
@@ -198,6 +264,9 @@
     <comp ref="U3">
       <value>LT1054xSOIC16</value>
       <footprint>Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm</footprint>
+      <fields>
+        <field name="Mouser part">595-LT1054CDWR </field>
+      </fields>
       <libsource lib="Regulator_SwitchedCapacitor_mod_local" part="LT1054xSOIC16" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F3E5A1D</tstamp>
@@ -205,6 +274,9 @@
     <comp ref="U4">
       <value>SW_3PDT</value>
       <footprint>Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Mouser part">612-FS573PLT2B2M1QE </field>
+      </fields>
       <libsource lib="Switch_3PDT" part="SW_3PDT" description="Switch, triple pole double throw, separate symbols"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F5C85F5</tstamp>
@@ -213,6 +285,9 @@
       <value>20K</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">652-PTV09A-4030UB203 </field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F76A866</tstamp>
@@ -221,6 +296,9 @@
       <value>10K</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">652-PTV09A-4025FB103</field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F7BE67A</tstamp>
@@ -229,6 +307,9 @@
       <value>100uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">661-EMZJ6R3A101ME61G</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1868BF</tstamp>
@@ -237,6 +318,9 @@
       <value>1000k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">667-ERJ-3GEYJ105V</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EDFDF68</tstamp>
@@ -245,6 +329,9 @@
       <value>2k</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW06032K00FKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EE26501</tstamp>
@@ -292,6 +379,9 @@
       <value>TL071</value>
       <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <fields>
+        <field name="Mouser part">511-TL071CDT</field>
+      </fields>
       <libsource lib="Amplifier_Operational" part="TL071" description="Single Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EFCB13B</tstamp>
@@ -300,6 +390,9 @@
       <value>20K</value>
       <footprint>Potentiometer_THT:Potentiometer_Alps_RK09K_Single_Vertical</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">652-PTV09A-4030UB203 </field>
+      </fields>
       <libsource lib="Device" part="R_POT" description="Potentiometer"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F0AE053</tstamp>
@@ -308,6 +401,9 @@
       <value>47K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW060347K0FKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F0AF0D8</tstamp>
@@ -316,6 +412,9 @@
       <value>22K</value>
       <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">71-CRCW060322K0FKEAC</field>
+      </fields>
       <libsource lib="Device" part="R" description="Resistor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F0E4E62</tstamp>
@@ -324,6 +423,9 @@
       <value>10nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">710-885012206040</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F0AD82F</tstamp>
@@ -332,6 +434,9 @@
       <value>47nF</value>
       <footprint>Capacitor_SMD:C_0603_1608Metric</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">140-VE470M1CTR0505</field>
+      </fields>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5F1191E1</tstamp>
@@ -348,6 +453,9 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">598-AVE106M35C12T-F</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EDE9FBF</tstamp>
@@ -356,6 +464,9 @@
       <value>10uF</value>
       <footprint>Capacitor_SMD:CP_Elec_5x5.3</footprint>
       <datasheet>~</datasheet>
+      <fields>
+        <field name="Mouser part">598-AVE106M35C12T-F</field>
+      </fields>
       <libsource lib="Device" part="CP" description="Polarized capacitor"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5EDEA551</tstamp>
